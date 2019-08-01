@@ -36,4 +36,4 @@ exclude:
   - Gemfile.lock
 include: [_pages]
 
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
