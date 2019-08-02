@@ -2,7 +2,7 @@
 layout: post
 title:  "Smart Contract Deploy"
 date:   2019-08-02 00:00:00 +0200
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.
+description: Explained how to deploy smart contract into ethereum blockchain.
 ---
 
 ## Smart Contract deploy
