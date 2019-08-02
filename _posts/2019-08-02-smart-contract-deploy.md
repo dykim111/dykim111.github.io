@@ -2,6 +2,8 @@
 layout: post
 title:  "Smart Contract Deploy"
 date:   2019-08-02 00:00:00 +0200
+categories: [programming]
+tags: [blockchain, ethereum]
 description: Explained how to deploy smart contract into ethereum blockchain.
 ---
 
