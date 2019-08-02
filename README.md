@@ -1,11 +1,20 @@
 Fresh is a free blog template for Jekyll
 =============================
 
-![](assets/img/fresh.jpg)
+## Prerequisites
 
-# Demo
+```$xslt
+sudo gem install bundler jekyll
+```
 
-![GIF](assets/img/fresh.gif)
+## Run
+
+```$xslt
+bundle exec jekyll serve
+```
+
+
+
 
 View this jekyll theme in action [here](http://artemsheludko.pw/fresh/)
 

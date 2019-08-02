@@ -1,16 +1,14 @@
 ---
 layout: default
-title: Programming
-permalink: /programming/
+title: Photography
+permalink: /photography/
 ---
 <header class="page-header">
-    <h1 class="page-title">Programming tips</h1>
-    This is the tips for the various categories of the programming.
+    <h1 class="page-title">Photography</h1>
 </header>
 
-
 {% for category in site.categories %}
-{% if category[0] contains "programming" %}
+{% if category[0] contains "photography" %}
 {% for post in category[1] %}
 <article class="page-article">
     <div class="wrap-content">
@@ -20,7 +18,7 @@ permalink: /programming/
         </header>
         <div class="page-content">
             {% if post.img %}
-            <img class="page-img" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}}
+            <img class="page-img" src={{ "/assets/img/" | prepend: site.baseurl | append : post.img}}
             alt="{{post.title}}">
             {% endif %}
             {{post.content | markdownify}}
